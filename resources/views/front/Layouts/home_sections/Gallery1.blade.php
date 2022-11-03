@@ -124,7 +124,7 @@
 
                             @foreach(FindQuickLink() as $Q)
 
-                            <a href="{{url($Q->slug)}}" class="inside-quick-box">
+                            <a href="{{$Q->slug}}" class="inside-quick-box">
 
                                <img src="{{asset('uploads/'.$Q->image)}}" alt="{{$Q->title}}">
                                <p>@if(GetLang()=='en') {{$Q->title}} @else {{$Q->title_h}} @endif</p>                           

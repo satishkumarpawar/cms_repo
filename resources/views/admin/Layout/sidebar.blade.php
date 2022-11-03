@@ -203,9 +203,32 @@
 
 
 
-      
 
+          <li class="nav-item">
 
+            <a class="nav-link" data-toggle="collapse" href="#cmspages" aria-expanded="false" aria-controls="tables">
+
+              <i class="icon-grid-2 menu-icon"></i>
+
+              <span class="menu-title">Manage Cms Pages</span>
+
+              <i class="menu-arrow"></i>
+
+            </a>
+
+            <div class="collapse" id="cmspages">
+
+              <ul class="nav flex-column sub-menu">
+
+                <li class="nav-item"> <a class="nav-link" href="pages.html">Pages</a></li>
+
+              </ul>
+
+            </div>
+
+          </li>
+
+       
 
           <li class="nav-item">
 
@@ -231,7 +254,6 @@
 
           </li>
 
-       
 
         
 
